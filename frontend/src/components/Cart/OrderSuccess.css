@@ -1,0 +1,32 @@
+
+.orderSuccess {
+    margin: 119px;
+    text-align: center;
+    padding: 10vmax;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .orderSuccess > svg {
+    font-size: 7vmax;
+    color: #571f7c;
+  }
+  .orderSuccess > p {
+    font-size: 2vmax;
+  }
+  .orderSuccess > a {
+    background-color:black;
+    color: white;
+    border: none;
+    padding: 1vmax 3vmax;
+    cursor: pointer;
+    font: 400 1vmax "Roboto";
+    text-decoration: none;
+    margin: 2vmax;
+  }
+  
+  .orderSuccess a:hover{
+    background-color: #571f7c;
+  }

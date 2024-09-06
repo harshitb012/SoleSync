@@ -1,0 +1,64 @@
+.myOrdersPage {
+    width: 100vw;
+    max-width: 100%;
+    padding: 0 7vmax;
+    box-sizing: border-box;
+    background-color: rgb(235, 235, 235);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+  
+  #myOrdersHeading {
+    text-align: center;
+    font: 400 1.2vmax "Roboto";
+    padding: 0.5vmax;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+    background-color: rgb(44, 44, 44);
+  }
+  
+  .myOrdersTable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 1vmax;
+  }
+  
+  .myOrdersTable th,
+  .myOrdersTable td {
+    padding: 1vmax;
+    text-align: left;
+    font: 300 1vmax "Roboto";
+    color: rgba(0, 0, 0, 0.678);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .myOrdersTable th {
+    background-color: #571f7c;
+    color: rgb(255, 255, 255);
+    font: 500 1.1vmax "Roboto";
+  }
+  
+  .myOrdersTable td a {
+    color: rgba(0, 0, 0, 0.527);
+    transition: all 0.5s;
+  }
+  
+  .myOrdersTable td a:hover {
+    color: #571f7c;
+  }
+  
+  .greenColor {
+    color: green;
+  }
+  
+  .redColor {
+    color: red;
+  }
+  

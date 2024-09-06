@@ -1,0 +1,118 @@
+.emptyCart{
+margin: auto;
+text-align: center;
+padding: 10vmax;
+height: 78vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.emptyCart>svg{
+    font-size: 5vmax;
+    color: #571f7c;
+}
+.emptyCart p{
+font-size: 2vmax;
+color: black;
+}
+.emptyCart a{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 1vmax 2vmax;
+    cursor: pointer;
+    font: 400 1vmax "Roboto";
+    text-decoration: none;
+}
+.emptyCart a:hover{
+    background-color: #571f7c;
+}
+.cartHeader{
+    background-color: #571f7c;
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    margin: auto;
+    color: white;
+    grid-template-columns: 4fr 1fr 1fr;
+    font: 300 0.7vmax "Roboto";
+}
+.cartHeader >p{
+    font: 50 16px "Roboto";
+    margin: 10px;
+}
+.cartHeader>p:last-child{
+    text-align: end;
+}
+.cartContainer{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+}
+.cartInput{
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+.cartInput>button{
+    border: none;
+    background-color: #571f7c;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+}
+.cartInput>button:hover{
+    background-color: black;
+}
+.cartInput>input{
+    
+    width: 1vmax;
+    border: none;
+    outline: none;
+    text-align: center;
+    font: 400 0.8vmax "Roboto";
+    color: rgba(0,0,0,0.74);
+}
+.cartSubtotal{
+    display: flex;
+    color: rgba(0,0,0,0.753);
+    align-items: center;
+    box-sizing: border-box;
+    font: 300 1vmax cursive;
+    justify-content: center;
+    height: 10vmax;
+}
+.cartGrossProfit{
+    display: grid;
+    grid-template-columns: 2fr 1.2fr;
+}
+.cartGrossProfitBox{
+    border-top: 3px solid #571f7c;
+    margin: 1vmax 4px;
+    box-sizing: border-box;
+    padding: 2vmax 0;
+    font: 300 1.5vmax "Roboto";
+    display: flex;
+    justify-content: space-between;
+}
+.checkOutBtn{
+    display: flex;
+    justify-content: flex-end;
+}
+.checkOutBtn>button{
+    background-color: #571f7c;
+    color: white;
+    border: none;
+    font: 300 0.8vmax "Roboto";
+    margin: 1vmax 4vmax;
+    padding: 0.8vmax 4vmax;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 30px;
+}
+.checkOutBtn>button:hover{
+    background-color: black;
+}

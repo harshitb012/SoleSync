@@ -1,0 +1,138 @@
+/* Ensure the cartHeader is styled correctly */
+.cartHeader {
+    background-color: #571f7c;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    color: white;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    font: 300 0.7vmax "Roboto";
+  }
+  
+  .cartHeader > p {
+    margin: 10px;
+  }
+  
+  .cartHeader > p:last-child {
+    text-align: end;
+  }
+  
+  /* Ensure the cartContainer is styled correctly */
+  .cartContainer {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    text-decoration: none;
+  }
+  
+  /* Ensure the cartInput is styled correctly */
+  .cartInput {
+    display: flex;
+    align-items: center;
+    height: auto;
+  }
+  
+  .cartInput > button {
+    border: none;
+    background-color: #571f7c;
+    padding: 0.5vmax;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+  }
+  
+  .cartInput > button:hover {
+    background-color: black;
+  }
+  
+  .cartInput > input {
+    border: none;
+    padding: 0.5vmax;
+    width: 2vmax;
+    text-align: center;
+    outline: none;
+    font: 400 0.8vmax "Roboto";
+    color: rgba(0, 0, 0, 0.74);
+  }
+  
+  .cartSubtotal {
+    display: flex;
+    padding: 0.5vmax;
+    height: auto;
+    align-items: center;
+    box-sizing: border-box;
+    font: 300 1vmax cursive;
+    justify-content: flex-end;
+    color: rgba(0, 0, 0, 0.753);
+  }
+  
+  /* Style for images */
+ .CartItemCard img {
+    height: 10vmax;
+    margin: 20px;
+  }
+  
+  /* Updated styling for item-details */
+  .item-details {
+    display: flex; /* Changed from grid to flex for better layout control */
+    flex-direction: column;
+    margin-left: 20px; /* Ensure it has space from the image */
+    justify-content: center; /* Center content vertically */
+  }
+  
+  /* Styling for item-details text */
+  .item-details p {
+    color: #571f7c;
+    cursor: pointer;
+  }
+  
+  .item-details p:hover {
+    color: black;
+  }
+  
+  .item-details span {
+    color: black;
+  }
+  .CartItemCard {
+    display: flex; /* Use flexbox to align image and details side by side */
+    align-items: center; /* Center items vertically within the card */
+    border: none;
+    padding: 10px;
+    margin: 10px;
+  
+    text-align: left; /* Align text to the left */
+    
+  }
+  
+  .CartItemCard img {
+    height: 10vmax;
+    margin-right: 20px; /* Space between image and details */
+  }
+  
+  .item-details {
+    text-decoration: none;
+    display: flex; /* Align details in a column */
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+  }
+  
+  /* Styling for item-details text */
+  .item-details span {
+    margin: 5px 0; /* Space between text elements */
+    color: black;
+    text-decoration: none;
+  }
+  
+  .item-details p {
+    color: #571f7c;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .item-details p:hover {
+    text-decoration: none;
+    color: black;
+  }
+  

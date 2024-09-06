@@ -1,0 +1,108 @@
+/* Ensure profileContainer occupies the full viewport */
+.profileContainer {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    background-color: white;
+    overflow: auto; /* Added to handle overflow */
+}
+
+/* Container for the profile elements, centered vertically and horizontally */
+.profileContainer > div {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the profile header */
+.profileContainer > div:first-child > h1 {
+    color: black;
+    font: 500 2.2vmax "Roboto";
+    transform: translateY(-2vmax); /* Adjusted for better positioning */
+    margin-bottom: 1vmax; /* Added margin for spacing */
+}
+
+/* Styling for the profile image */
+.profileContainer > div:first-child > img {
+    width: 20vmax;
+    border-radius: 50%; /* Ensures a perfect circle */
+    transition: all 0.5s;
+    margin-bottom: 1vmax; /* Added margin for spacing */
+}
+
+/* Styling for the Edit Profile link */
+.profileContainer > div:first-child > a {
+    border: none;
+    background-color: black;
+    font: 400 1vmax "Roboto";
+    transition: all 0.5s;
+    color: white;
+    text-decoration: none;
+    padding: 0.5vmax;
+    text-align: center; /* Center text inside the button */
+    width: 30%;
+}
+
+/* Hover effect for the Edit Profile link */
+.profileContainer > div:first-child > a:hover {
+    background-color: #571f7c;
+}
+
+/* Styling for the profile details section */
+.profileContainer > div:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5vmax;
+    box-sizing: border-box;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* Styling for section headings and paragraphs */
+.profileContainer > div:last-child > div > h4 {
+    color: black; /* Changed to match link color */
+    font: 400 1.2vmax "Roboto";
+    margin: 0;
+}
+
+/* Styling for paragraphs */
+.profileContainer > div:last-child > div > p {
+    margin: 0.2vmax;
+    font: 400 1vmax cursive;
+    color: rgba(0, 0, 0, 0.418);
+}
+
+/* Styling for links in the details section */
+
+
+.profileContainer > div:last-child > div:last-child {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+  
+  .profileContainer > div:last-child > div:last-child > a {
+    border: none;
+    background-color: black;
+    font: 400 1vmax "Roboto";
+    color: white;
+    text-decoration: none;
+    padding: 0.5vmax;
+    text-align: center;
+    transition: all 0.5s;
+    margin: 1vmax 0;
+  }
+  
+  .profileContainer > div:last-child > div:last-child > a:hover {
+    background-color: #571f7c;
+  }
+  

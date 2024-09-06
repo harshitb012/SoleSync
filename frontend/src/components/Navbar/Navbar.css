@@ -1,0 +1,142 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 16px 40px;
+    box-shadow: 0 1px 3px -2px black;
+}
+
+.nav-login-cart svg{
+    
+    color: #1a1a1a;
+}
+.nav-login-cart svg:hover{
+color: #571f7c;
+}
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+}
+ .nav-login-cart img{
+    width: 30px;
+ }
+
+.nav-logo img {
+   height: 10vh;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: #626262;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0; 
+}
+
+.nav-menu a{
+    color: #1a1a1a;
+    text-decoration: none;
+    padding: 0px 15px;
+    padding-left: 0px;
+    font-weight: 600;
+}
+.nav-menu a:hover{
+    color: #571f7c;
+}
+
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.socials-nav {
+    display: flex;
+    justify-content: flex-start; /* Aligns the text towards the right */
+    align-items: center; /* Ensures the text is vertically centered */
+    background-color: #efefef;
+    color: black;
+    height: 40px;
+    padding-left: 56px; /* Optional: Adds some padding to the right */
+}
+.nav-search-container img{
+    height: 20px;
+}
+.nav-login-cart {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.nav-login-cart button {
+    width: 100px;
+    height: 42px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    background: black;
+    cursor: pointer;
+}
+.nav-login-cart button:hover{
+    background-color:#571f7c;
+    
+} 
+
+
+.nav-logo img {
+    height: 10vh;
+}
+#searchbtn img{
+    height: 19px;
+}
+.nav-search-container {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e4e4;
+    border-radius: 0; 
+}
+
+#searchBox {
+    padding: 0.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal;
+    line-height: 1;
+    min-width: 0;
+    font-size: 14px;
+    border: none;
+    
+    border-radius: 0; /* Remove border-radius for square corners */
+}
+
+#searchBox:focus-visible {
+    border: none;
+    outline: none;
+    border-radius: 0; /* Remove border-radius for square corners */
+}
+
+#searchBtn {
+    color: #fff;
+    border: none;
+    background-color: black;
+    padding: 6px 30px;
+    margin: 1px;
+    border-radius: 0; /* Remove border-radius for square corners */
+}
+
+#searchBtn:hover {
+    cursor: pointer;
+    background-color: #571f7c;
+}
